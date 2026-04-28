@@ -1,0 +1,4 @@
+C:\Users\beeyz\Desktop\files (8)\obj\Debug\net8.0\ECommerceApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beeyz\Desktop\files (8)\obj\Debug\net8.0\ECommerceApp.AssemblyInfoInputs.cache
+C:\Users\beeyz\Desktop\files (8)\obj\Debug\net8.0\ECommerceApp.AssemblyInfo.cs
+C:\Users\beeyz\Desktop\files (8)\obj\Debug\net8.0\ECommerceApp.csproj.CoreCompileInputs.cache

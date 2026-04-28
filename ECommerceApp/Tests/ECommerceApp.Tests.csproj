@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="4.2.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../Core/Product.cs" />
+    <Compile Include="../Core/Cart.cs" />
+    <Compile Include="../Core/OrderService.cs" />
+    <Compile Include="UnitTests/ProductCartTests.cs" />
+    <Compile Include="UnitTests/BlackBoxGrayBoxTests.cs" />
+    <Compile Include="IntegrationTests/IntegrationTests.cs" />
+  </ItemGroup>
+
+</Project>
